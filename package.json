@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3",
+    "semantic-release": "^22.0.5"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run commitmsg"
+    }
+  }}
