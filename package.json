@@ -2,6 +2,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/commit-analyzer": "github:semantic-release/commit-analyzer",
+    "@semantic-release/github": "github:semantic-release/github",
+    "@semantic-release/release-notes-generator": "github:semantic-release/release-notes-generator",
     "husky": "^8.0.0",
     "semantic-release": "^22.0.5"
   },
