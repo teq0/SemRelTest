@@ -37,7 +37,7 @@ public class Function
 
     private async Task ProcessMessageAsync(SQSEvent.SQSMessage message, ILambdaContext context)
     {
-        context.Logger.LogInformation($"Processed message {message.Body} with maximum zing.");
+        context.Logger.LogInformation($"Processed message {message.Body} with optimum zing.");
         context.Logger.LogDebug($"Message ID: {message.MessageId}");
 
         // TODO: Do interesting work based on the new message
